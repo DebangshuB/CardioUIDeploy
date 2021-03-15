@@ -99,6 +99,9 @@ p {
 }
 
 
+/* RESULT F**** UP ON PHONE */
+
+
 /* SCROLL BAR */
 
 ::-webkit-scrollbar {
@@ -122,11 +125,11 @@ p {
 
 @media screen and (max-width: 480px) {
     .card-main {
-        padding: 1%;
-    }
-    .card-main {
         margin: 5px;
         padding: 2%;
+    }
+    .card {
+        margin: 5px;
     }
 }
 
