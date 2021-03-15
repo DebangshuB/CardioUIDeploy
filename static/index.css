@@ -15,15 +15,18 @@ body {
 footer-custom {
     background-color: #90b1df;
 }
-h1{
+
+h1 {
     font-family: 'Bungee', cursive !important;
     letter-spacing: .5rem !important;
     line-height: 3.5rem;
     margin: 1% 3% !important;
 }
-p{
+
+p {
     margin: 1% 3% !important;
 }
+
 
 /* Important for Result and Error 404 */
 
@@ -63,7 +66,7 @@ p{
     font-size: 1.2rem;
 }
 
-.disclaimer{
+.disclaimer {
     color: #cafd11 !important;
 }
 
@@ -103,7 +106,7 @@ p{
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #5098fc;
+    background: #abdf9a;
 }
 
 
@@ -111,7 +114,7 @@ p{
 
 ::-webkit-scrollbar-track {
     width: 20px;
-    background: #0054c9;
+    background: #509642;
 }
 
 
