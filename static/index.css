@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Raleway:wght@300&display=swap');
+* {
+    font-family: "Roboto", sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background-color: #191919;
+}
+
+footer-custom {
+    background-color: #90b1df;
+}
+
+
+/* Important for Result and Error 404 */
+
+.card {
+    background-color: #90b1df;
+    margin: 10vh 20vw 20vh;
+}
+
+.card-main {
+    background-color: #90b1df;
+    margin: 4rem 5rem;
+    padding: 1%;
+}
+
+.card-result {
+    background-color: #6f9961;
+    padding: 1%;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.row {
+    margin: 10px;
+}
+
+
+/* RESULT */
+
+.result {
+    font-size: 1.2rem;
+}
+
+.good {
+    color: #428e29;
+}
+
+.bad {
+    color: #c74f4f;
+}
+
+
+/* ERRORS LOOK BAD */
+
+.form-control,
+.form-control-lg,
+.is-invalid {
+    list-style-type: none;
+}
+
+
+/* REACTIVE THINGS */
+
+.submit {
+    transition: 200ms;
+}
+
+.clear {
+    transition: 200ms;
+}
+
+.submit:hover {
+    background-color: #6f9961;
+    border: #6f9961;
+    transform: scale(1.2);
+}
+
+.clear:hover {
+    background-color: #996161;
+    border: #996161;
+    transform: scale(1.2);
+}
+
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+    background: #1f1f1f;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #464545;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    width: 20px;
+    background: #191919;
+}
+
+
+/* FOR PHONE */
+
+@media screen and (max-width: 480px) {
+    .card-main {
+        padding: 1%;
+    }
+    .card-main {
+        margin: 5px;
+        padding: 2%;
+    }
+}
+
+
+/*# sourceMappingURL=index.css.map */
