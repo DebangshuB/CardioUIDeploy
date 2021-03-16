@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme={{theme}}>
+<html lang="en" data-theme='light'>
 
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../static/index.css">
     <link rel="shortcut icon" href="../static/favicon/favicon.ico?v=1" type="image/x-icon" /> {% if title %}
 
-    <title>Cardio UI : {{title}}</title>
+    <title>Cardiac Health : {{title}}</title>
     {% else %}
     <title>Cardio UI</title>
     {% endif %}
@@ -19,6 +19,8 @@
 <body>
     {% block content %}{% endblock %}
 </body>
-<script src="../static/theme.js"></script>
+<script defer src="../static/theme.js"></script>
+<script>
+</script>
 
 </html>
