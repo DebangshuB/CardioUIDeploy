@@ -5,8 +5,9 @@
     --card_back: #e3fcdd;
     --card_text: #f5f5f5;
     --disclaimer: #cafd11;
-    --good: #2842d8;
-    --bad: #ed2323;
+    --good: #334cdc;
+    --bad: #ee4c4c;
+    --neutral: #f8fdf3;
     --scrollbar: #77ba69;
 }
 
@@ -17,8 +18,8 @@ html[data-theme="dark"] {
     --disclaimer: #d8f374;
     --good: #4359d5;
     --bad: #ed4949;
-    --neutral: rgb(235, 228, 228);
-    --scrollbar: #949494;
+    --neutral: #ebe4e4;
+    --scrollbar: #595959;
 }
 
 * {
@@ -159,7 +160,7 @@ p {
 
 /* FOR PHONE */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
     .card-main {
         margin: 5px;
         padding: 2%;
@@ -168,7 +169,7 @@ p {
         margin: 5px;
     }
     .switch {
-        transform: scale(1);
+        transform: scale(1.2) translateX(5vw) translateY(-1vh);
     }
 }
 
