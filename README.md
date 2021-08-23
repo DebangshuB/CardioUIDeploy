@@ -4,6 +4,8 @@ This project uses an ML model to predict whether a person is at a higher or lowe
 
 Try it out for yourself at https://cardiachealth.ml/.
 
+Edit : The above link does not work anymore as we have shifted the app from AWS to Heroku. Use this link https://cardiachealth.herokuapp.com/ .
+
 
 ## Machine Learning Model
 
@@ -35,6 +37,8 @@ The front end of the website has been made using HTML, SCSS, Bootstrap and Javas
 
 #### Server
 The project is hosted on an AWS EC2 instance.
+
+Edit : It has been shifted to Heroku.
 
 #### Web Backend
 The project is contained in a Flask application written in python. The templating has been done using Jinja and the data collection from the user is done using WT Forms.
