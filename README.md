@@ -6,6 +6,12 @@ Try it out for yourself at https://cardiachealth.ml/.
 
 Edit : The above link does not work anymore as we have shifted the app from AWS to Heroku. Use this link https://cardiachealth.herokuapp.com/ .
 
+![](https://img.shields.io/badge/flask-1.1.2-brightgreen)
+![](https://img.shields.io/badge/python-3.8.9-green)
+![](https://img.shields.io/badge/numpy-1.19.2-yellowgreen)
+![](https://img.shields.io/badge/scikit--learn-0.24.1-orange)
+![](https://img.shields.io/badge/gunicorn-20.1.0-red)
+![](https://img.shields.io/badge/wtforms-2.3.3-blue)
 
 ## Machine Learning Model
 
