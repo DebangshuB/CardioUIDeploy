@@ -13,6 +13,8 @@ Edit : The above link does not work anymore as we have shifted the app from AWS 
 ![](https://img.shields.io/badge/gunicorn-20.1.0-red)
 ![](https://img.shields.io/badge/wtforms-2.3.3-blue)
 
+![](https://github.com/DebangshuB/CardioUIDeploy/blob/main/1.png)
+
 ## Machine Learning Model
 
 The model is a classification model which uses gradient boosting algorithm. The model has been made using [Kaggle | Cardiovascular Disease Dataset](https://www.kaggle.com/sulianova/cardiovascular-disease-dataset) made by [Svetlana Ulianova](https://www.kaggle.com/sulianova).\
